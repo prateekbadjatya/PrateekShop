@@ -46,6 +46,8 @@ class Directory extends React.Component {
           title={category.title}
           imageUrl={category.imageUrl}
           size={category.size}
+          linkUrl={category.linkUrl}
+          history={this.props.history}
         />
       );
     });
